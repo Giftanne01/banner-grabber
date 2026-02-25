@@ -1,0 +1,44 @@
+Banner Grabber Test Results
+Date: February 18, 2026
+
+TEST 1: scanme.nmap.org Port 22
+Result: SUCCESS
+Banner: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu
+Learning: Successfully grabbed SSH banner
+
+TEST 2: scanme.nmap.org Port 21
+Result: FAILED
+No banner received
+
+TEST 3: TryHackMe Machine 10.48.141.11
+Result: All ports failed
+Reason: Ports were closed or not connected to VPN
+Learning: Banner grabbing only works on open ports
+
+Key Takeaways:
+- Banner grabbing reveals service versions
+- Only works on open ports
+- Some services like HTTP need requests first
+- VPN connection needed for TryHackMe machines
+Banner Grabber Test Results
+Date: February 18, 2026
+
+TEST 1: scanme.nmap.org Port 22
+Result: SUCCESS
+Banner: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu
+Learning: Successfully grabbed SSH banner
+
+TEST 2: scanme.nmap.org Port 21
+Result: FAILED
+No banner received
+
+TEST 3: TryHackMe Machine 10.48.141.11
+Result: All ports failed
+Reason: Ports were closed or not connected to VPN
+Learning: Banner grabbing only works on open ports
+
+Key Takeaways:
+- Banner grabbing reveals service versions
+- Only works on open ports
+- Some services like HTTP need requests first
+- VPN connection needed for TryHackMe machines
